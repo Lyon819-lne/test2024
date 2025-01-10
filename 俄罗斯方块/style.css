@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#score {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+canvas {
+    border: 1px solid #fff;
+}
+
+button {
+    background-color: #4CAF50; /* 绿色背景 */
+    border: none;
+    color: white; /* 白色文字 */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* 圆角 */
+    transition: background-color 0.3s ease; /* 背景色渐变 */
+}
+
+button:hover {
+    background-color: #45a049; /* 悬停时的背景色 */
+}
+
+select {
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+}

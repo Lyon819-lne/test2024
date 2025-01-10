@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渐变色俄罗斯方块</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="controls">
+        <button id="start">开始游戏</button>
+        <button id="pause">暂停游戏</button>
+        <button id="restart">重新开始</button>
+        <label for="speed">速度:</label>
+        <select id="speed">
+            <option value="1000">慢</option>
+            <option value="500">中</option>
+            <option value="200">快</option>
+        </select>
+    </div>
+    <div id="score">分数: 0</div>
+    <canvas id="tetris" width="240" height="400"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
