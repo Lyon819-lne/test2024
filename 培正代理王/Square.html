@@ -1,0 +1,158 @@
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+    }
+
+    body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('广场背景.jpg');
+        background-size: cover;
+        background-position: center;
+        filter: blur(3px);
+        z-index: -1;
+    }
+
+    .business-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        margin: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .business-box {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        padding: 20px;
+        width: 30%;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .business-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .business-box a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .business-box h3 {
+        margin-bottom: 10px;
+        font-size: 26px;
+        color: #110000;
+        font-weight: bold;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .business-box p {
+        font-size: 14px;
+        color: #333333;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        z-index: 1;
+    }
+
+    .campus-run {
+        background-color: #eb8532; /* 浅橙色 */
+    }
+
+    .parcel-pickup {
+        background-color: #48e44d; /* 浅绿色 */
+    }
+
+    .food-delivery {
+        background-color: #1b99e1; /* 浅蓝色 */
+    }
+
+    .amateur-agent {
+        background-color: #ef5f81; /* 浅粉色 */
+    }
+
+    .professional-agent {
+        background-color: #eeeb50; /* 浅黄色 */
+    }
+
+    .other-business {
+        background-color: #866dcf; /* 浅紫色 */
+    }
+</style>
+
+<div class="business-container">
+    <!-- 校园代跑 -->
+    <div class="business-box campus-run">
+        <a href="campus-run.html">
+            <h3>校园代跑</h3>
+            <p>提供校园内的代跑服务，快速高效</p>
+        </a>
+    </div>
+
+    <!-- 代拿快递 -->
+    <div class="business-box parcel-pickup">
+        <a href="parcel-pickup.html">
+            <h3>代拿快递</h3>
+            <p>为您代拿快递，省时省力</p>
+        </a>
+    </div>
+
+    <!-- 代送外卖 -->
+    <div class="business-box food-delivery">
+        <a href="food-delivery.html">
+            <h3>代送外卖</h3>
+            <p>提供外卖代送服务，方便快捷</p>
+        </a>
+    </div>
+
+    <!-- 业余代理 -->
+    <div class="business-box amateur-agent">
+        <a href="amateur-agent.html">
+            <h3>业余兼职</h3>
+            <p>业余时间的兼职服务，灵活多样</p>
+        </a>
+    </div>
+
+    <!-- 专业代理 -->
+    <div class="business-box professional-agent">
+        <a href="professional-agent.html">
+            <h3>专业代理</h3>
+            <p>专业的代理服务，值得信赖</p>
+        </a>
+    </div>
+
+    <!-- 其他业务 -->
+    <div class="business-box other-business">
+        <a href="other-business.html">
+            <h3>其他业务</h3>
+            <p>拼车、拼单、低价购等</p>
+         </a>
+    </div>
+</div>
+
+<footer>
+    <p>版权所有wyl &copy; 202412</p>
+</footer>
+

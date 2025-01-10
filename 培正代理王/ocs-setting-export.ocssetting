@@ -1,0 +1,142 @@
+{
+  "zhs.guide.notes": "<ul><li><div>请手动进入视频、作业、考试页面，脚本会自动运行。</div></li><li><div>兴趣课会自动下一个，所以不提供脚本。</div></li></ul>",
+  "zhs.gxk.study.notes": "<ul><li><div>章节测试请大家观看完视频后手动打开。</div></li><li><div>请大家仔细打开视频上方的”学前必读“，查看成绩分布。</div><div>如果 “平时成绩-学习习惯成绩” 占比多的话，就需要规律学习。</div><div>每天定时半小时可获得一分习惯分。</div><div>如果不想要习惯分可忽略。</div></li><li><div>不要最小化浏览器，可能导致脚本暂停。</div></li><li><div>运行中请将浏览器缩放调整至适合的大小，避免元素遮挡，无法点击</div></li></ul>",
+  "zhs.gxk.study.studyRecord": [],
+  "zhs.gxk.study.stopTime": "0",
+  "zhs.gxk.study.reloadWhenError": true,
+  "zhs.gxk.study.definition": "line1bq",
+  "zhs.gxk.study.playbackRate": 1,
+  "zhs.gxk.work.notes": "<ul><li><div>📢 如果未开始答题，请尝试刷新页面。</div></li><li><div>自动答题前请在 “通用-全局设置” 中设置题库配置。</div></li><li><div>可以搭配 “通用-在线搜题” 一起使用。</div></li></ul>",
+  "zhs.xnk.study.notes": "<ul><li><div>章节测试请大家观看完视频后手动打开。</div></li><li><div>此课程不能使用倍速。</div></li></ul>",
+  "zhs.xnk.work.notes": "<ul><li><div>自动答题前请在 “通用-全局设置” 中设置题库配置。</div></li><li><div>可以搭配 “通用-在线搜题” 一起使用。</div></li></ul>",
+  "cx.guide.notes": "请手动进入视频、作业、考试页面，脚本会自动运行。",
+  "cx.new.study.notes": "<ul><li><div>自动答题前请在 “通用-全局设置” 中设置题库配置。</div></li><li><div>任务点不是顺序执行，如果某一个任务没有动</div><div>请查看是否有其他任务正在学习，耐心等待即可。</div></li><li><div>闯关模式请注意题库如果没完成，需要自己完成才能解锁章节。</div></li><li><div>不要最小化浏览器，可能导致脚本暂停。</div></li><li><div>脚本详情运行日志请前往：后台-日志 查看</div></li></ul>",
+  "cx.new.study.playbackRate": "1",
+  "cx.new.study.videoQuizStrategy": "random",
+  "cx.new.study.mode": "next",
+  "cx.new.study.showTextareaWhenEdit": true,
+  "cx.new.study.notifyWhenHasFaceRecognition": true,
+  "cx.new.study.enableMedia": true,
+  "cx.new.study.enablePPT": true,
+  "cx.new.study.enableChapterTest": true,
+  "cx.new.study.enableHyperlink": true,
+  "cx.new.work.notes": "<ul><li><div>自动答题前请在 “通用-全局设置” 中设置题库配置。</div></li><li><div>可以搭配 “通用-在线搜题” 一起使用。</div></li></ul>",
+  "cx.new.auto-read.notes": "<ul><li><div>阅读任务次日才会统计阅读时长</div></li></ul>",
+  "cx.jfk.guide.notes": "<ul><li><div>积分课请进入课程后，开启复习模式，并且关闭自动下一章</div></li><li><div>课程完成后请手动切换，如果由脚本进行自动跳转会出现乱跳转的可能。</div></li></ul>",
+  "icve.guide.notes": "<ul><li><div>请点击任意课程进入</div></li><li><div>进入课程后点击任意章节进入，即可自动学习</div></li></ul>",
+  "icve.study.center.playbackRate": "1",
+  "icve.study.center.currentCourseUrlList": [],
+  "icve.study.main.notes": "<ul><li><div>如果视频无法播放，可以手动点击其他任务跳过视频。</div></li><li><div>经过测试视频倍速最多二倍，否则会判定无效。</div></li><li><div>手动进入作业页面才能使用自动答题。</div></li></ul>",
+  "icve.study.main.playbackRate": "1",
+  "icve.study.main.showScrollBar": true,
+  "icve.study.main.expandAll": true,
+  "icve.study.main.switchPeriod": 10,
+  "icve.work.notes": "<ul><li><div>自动答题前请在 “通用-全局设置” 中设置题库配置。</div></li><li><div>可以搭配 “通用-在线搜题” 一起使用。</div></li><li><div>请手动进入作业考试页面才能使用自动答题。</div></li></ul>",
+  "zjy.study.guide.notes": "请点击任意章节，进入学习。",
+  "zjy.study.main.notes": "<ul><li><div>如果脚本卡死或者您不想学习，</div><div>可以点击其他任意章节继续进行学习。</div></li><li><div>提示：职教云无法使用倍速。</div></li></ul>",
+  "zjy.work.main.notes": "<ul><li><div>自动答题前请在 “通用-全局设置” 中设置题库配置。</div></li><li><div>可以搭配 “通用-在线搜题” 一起使用。</div></li><li><div>请手动进入作业考试页面才能使用自动答题。</div></li></ul>",
+  "icourse.guide-v1.notes": "<ul><li><div>手动进入任意课程里的课件/作业，即可开始自动学习</div></li></ul>",
+  "icourse.guide-v1.runAtHash": [
+    "/home/course"
+  ],
+  "icourse.study-v1.notes": "<ul><li><div>请勿在使用过程中最小化浏览器</div></li><li><div>自动讨论默认关闭，如需开启请在下方设置中设置</div></li><li><div>作业请完成课程后手动进入</div></li></ul>",
+  "icourse.study-v1.runAtHash": "/learn/content?type=detail",
+  "icourse.study-v1.playbackRate": "1",
+  "icourse.study-v1.readSpeed": 1,
+  "icourse.study-v1.discussionStrategy": "not-reply",
+  "icourse.work-v2.notes": "<ul><li><div>自动答题前请在 “通用-全局设置” 中设置题库配置。</div></li><li><div>可以搭配 “通用-在线搜题” 一起使用。</div></li></ul>",
+  "icourse.work-v2.runAtHash": [
+    "/learn/quiz",
+    "/learn/examObject"
+  ],
+  "common.settings.notes": "<ul><li><div>✨鼠标移动到按钮或者输入框，可以看到提示！</div></li><li><div>想要自动答题必须设置 “题库配置” </div></li><li><div>设置后进入章节测试，作业，考试页面即可自动答题。</div></li></ul>",
+  "common.settings.notification": "only-notify",
+  "common.settings.enableQuestionCaches": true,
+  "common.settings.answererWrappers": [
+    {
+      "name": "言溪题库",
+      "homepage": "https://tk.enncy.cn/",
+      "url": "https://tk.enncy.cn/query",
+      "method": "get",
+      "type": "GM_xmlhttpRequest",
+      "contentType": "json",
+      "data": {
+        "token": "08cc758f9e54449380833d0af994a9fd",
+        "title": "${title}",
+        "options": "${options}",
+        "type": "${type}"
+      },
+      "handler": "return (res)=>res.code === 0 ? [res.data.answer, undefined] : [res.data.question,res.data.answer]"
+    },
+    {
+      "name": "网课小工具题库（GO题）",
+      "homepage": "https://cx.icodef.com/",
+      "url": "https://cx.icodef.com/wyn-nb?v=4",
+      "method": "post",
+      "type": "GM_xmlhttpRequest",
+      "data": {
+        "question": "${title}"
+      },
+      "headers": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Authorization": ""
+      },
+      "handler": "return  (res)=> res.code === 1 ? [undefined,res.data] : [res.msg,undefined]"
+    }
+  ],
+  "common.settings.disabledAnswererWrapperNames": [],
+  "common.settings.answererWrappersButton": "点击配置",
+  "common.settings.upload": "70",
+  "common.settings.stopSecondWhenFinish": 3,
+  "common.settings.thread": 2,
+  "common.settings.period": 3,
+  "common.settings.randomWork-completeTexts-textarea": "不会\n不知道\n不清楚\n不懂\n不会写",
+  "common.settings.answerSeparators": "===,#,---,###,|,;,；",
+  "common.settings.redundanceWordsText": "单选题(必考)\n填空题(必考)\n多选题(必考)\n【单选题】\n【多选题】\n【Single Choice】\n【Multiple Choice】\n【single choice】\n【multiple choice】\n【True or False】",
+  "common.settings.answerMatchMode": "similar",
+  "common.work-results.notes": "<ul><li><div>点击题目序号，查看搜索结果</div></li><li><div>每次自动答题开始前，都会清空上一次的搜索结果。</div></li></ul>",
+  "common.work-results.type": "numbers",
+  "common.work-results.totalQuestionCount": 9,
+  "common.work-results.requestedCount": 3,
+  "common.work-results.resolvedCount": 3,
+  "common.work-results.currentResultIndex": 1,
+  "common.work-results.questionPositionSyncHandlerType": "cx",
+  "common.online-search.notes": "查题前请在 “通用-全局设置” 中设置题库配置，才能进行在线搜题。",
+  "common.online-search.selectSearch": true,
+  "render.panel.notes": "<ul><li><div>如果需要隐藏整个窗口，可以点击下方隐藏按钮，</div><div>隐藏后可以快速三击屏幕中的任意地方</div><div>来重新在鼠标位置显示窗口。</div></li><li><div>窗口连续点击显示的次数可以自定义，默认为三次</div></li><li><div>窗口快捷键列表：</div><div>ctrl + o : 隐藏/打开 面板</div></li></ul>",
+  "render.panel.x": 55,
+  "render.panel.y": 90,
+  "render.panel.visual": "normal",
+  "render.panel.firstCloseAlert": true,
+  "render.panel.fontsize": 14,
+  "render.panel.switchPoint": 3,
+  "common.apps.notes": "这里是一些其他的应用或者拓展功能。",
+  "common.apps.localQuestionCaches": [],
+  "render.console.logs": [
+    {
+      "type": "log",
+      "content": "正在加载繁体字库。",
+      "time": 1733747061670,
+      "stack": "[\"Error\",[\"Proxy.<anonymous>\",\"7101\",\"27\"],[\"loadTyprMapping\",\"13201\",\"16\"],[\"mappingRecognize\",\"13143\",\"54\"],[\"Script.oncomplete\",\"12983\",\"17\"],[\"Script.oncomplete\",\"2015\",\"67\"],[\"HTMLDocument.<anonymous>\",\"2925\",\"19\"]]"
+    },
+    {
+      "type": "log",
+      "content": "正在加载繁体字库。",
+      "time": 1733747329887,
+      "stack": "[\"Error\",[\"Proxy.<anonymous>\",\"7101\",\"27\"],[\"loadTyprMapping\",\"13201\",\"16\"],[\"mappingRecognize\",\"13143\",\"54\"],[\"Script.oncomplete\",\"12983\",\"17\"],[\"Script.oncomplete\",\"2015\",\"67\"],[\"HTMLDocument.<anonymous>\",\"2925\",\"19\"]]"
+    }
+  ],
+  "background.app.notes": "<ul><li><span>如果您使用<a href=\"https://docs.ocsjs.com/docs/app\" target=\"_blank\">OCS桌面软件</a>启动浏览器，并使用此脚本，</span><div>我们会同步软件中的配置到此脚本上，方便多个浏览器的管理。</div><div>窗口设置以及后台面板所有设置不会进行同步。</div></li><li><div>如果不是，您可以忽略此脚本。</div></li></ul>",
+  "background.update.notes": "脚本自动更新模块，如果有新的版本会自动通知。",
+  "background.update.autoNotify": true,
+  "background.update.notToday": -1,
+  "background.update.ignoreVersions": [],
+  "background.dev.notes": "开发人员调试用。<br>注入OCS_CONTEXT全局变量。用户可忽略此页面。",
+  "notes": "<ul><li><div>开发人员请求调试记录页面，小白勿入，最多只记录最近的100个请求数据</div></li><li><div>可打开F12控制台查看请求日志，或者下方的请求列表</div></li></ul>",
+  "methodFilter": "none",
+  "typeFilter": "none",
+  "list": [],
+  "_tab_change_515637514a914a93b8eb90f158cfbe5a__urls_": [
+    "https://mooc1.chaoxing.com/ananas/modules/work/index.html?v=2024-1121-1629&castscreen=0"
+  ]
+}
